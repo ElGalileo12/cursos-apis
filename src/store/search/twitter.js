@@ -1,0 +1,38 @@
+/* import { defineStore } from "pinia";
+
+const apikey = process.env.TWITTER_CONSUMER_KEY;
+const apiSecretKey = process.env.TWITTER_CONSUMER_SECRET;
+const apiBearerToken = process.env.TWITTER_BEARER_TOKEN;
+
+export const useSearchTwitter = defineStore('Twitter',{
+  state: () => ({
+    search: [
+      {
+        id: "1570093008653094912",
+        url: "https://t.co/K9YYCDoDBv",
+        mediaUrl: "https://pbs.twimg.com/media/FcRMEgeWQAMOUvD.jpg",
+      },
+      {
+        id: "1570064946473345025",
+        url: "https://t.co/kbZcmXcHU4",
+        mediaUrl: "https://pbs.twimg.com/media/FcLkBw1X0AAa9Em.jpg",
+      },
+      {
+        id: "1570036704320552960",
+        url: "https://t.co/vYVjxuAqL4",
+        mediaUrl: "https://pbs.twimg.com/media/FcN4Qk1X0AMmhcD.jpg",
+      },
+      {
+        id: "1570042906437890048",
+        url: "https://t.co/K9YYCDoDBv",
+        mediaUrl: "https://pbs.twimg.com/media/FcOFsrsWYAEm6P0.jpg",
+      },
+    ],
+  }),
+  getters: {
+    getRegisters (state) {
+      return state.registers;
+    },
+  },
+});
+ */
